@@ -3,7 +3,7 @@ const skills = [
     { image: "skills/css.png" },
     { image: "skills/js.png" },
     { image: "skills/tailwindcss.svg" },
-    { image: "skills/react.png" },
+    { image: "skills/ccna.png" },
     { image: "skills/nodejs.png" },
     { image: "skills/aspnet.png" },
     { image: "skills/c.png" },
