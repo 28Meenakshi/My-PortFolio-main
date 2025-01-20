@@ -1,21 +1,21 @@
 const projects = [
     {
-      name: "Instagram Clone with ChatBot Integration",
-      image:'images/instagram.jpg',
-      technologies: ["Django", "Python", "HTML", "CSS", "JavaScript", "SQL"],
-      description: "Developed a fully functional Instagram-like social media application that allows users to create profiles, post pictures, and chat. Integrated a chatbot to assist users with common queries."
+      name: "Health chatbot using ML",
+      image:'images/chatbot.png',
+      technologies: ["Python", "HTML", "CSS","Flask"],
+      description: "Developed a fully functional machine learning application that predicts diseases based on user-provided symptoms and suggests appropriate medications. The application dynamically extracts symptom data from a dataset and uses a trained Random Forest Classifier for predictions."
     },
     {
-      name: "E-commerce Web Application",
-      image:"images/ecommerce.jpg",
-      technologies: ["Django", "Python", "HTML", "CSS", "JavaScript", "SQL"],
-      description: "Built an online shopping platform featuring product listings, user authentication, and a shopping cart. Focused on creating a user-friendly experience and robust backend functionality."
+      name: "Department Store",
+      image:"images/department.png",
+      technologies: [ "HTML", "CSS", "JavaScript", "php","mysql"],
+      description: "Designed and developed a web-based Department Store Management System to streamline and manage daily operations such as inventory management, Add to cart ,customer billing, and user Athentication. The system ensures efficient store management with a user-friendly interface and robust backend functionality.."
     },
     {
-      name: "YouTube Static Website",
-      image:'images/youtube.jpg',
-      technologies: ["HTML", "CSS", "JavaScript", "Tailwind CSS", "React", "Vercel"],
-      description: "Created a responsive static website resembling YouTube, with a navigation bar, video thumbnails, and basic styling. Utilized **React** for structure and **Tailwind CSS** for styling."
+      name: "Scholarship management system",
+      image:'images/scholarship.png',
+      technologies: ["HTML", "CSS", "js","php","mysql"],
+      description: "Developed a web-based Scholarship Management System to facilitate the application, review, and allocation of scholarships for students. The system provides a seamless platform for students, administrators, and reviewers to manage the scholarship process efficiently."
     }
   ];
 

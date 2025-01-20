@@ -6,15 +6,15 @@ import ThemeContext from "../ColorTheme/themeContext";
 const MenuIconsItems = [
   {
     icon :<Github/> ,
-    link : "https://github.com/MuthuPandi-1963"
+    link : "https://github.com/28Meenakshi"
   },
   {
     icon :<Instagram/> ,
-    link : "https://www.instagram.com/__mr.prank/profilecard/?igsh=cmhxeXdqNmV5NzVl"
+    link : "https://www.instagram.com/accounts/onetap/?next=%2F"
   },
   {
     icon :<LinkedIn/> ,
-    link : "https://www.linkedin.com/in/muthupandi-r-832559325/"
+    link : "https://www.linkedin.com/in/meenakshi-k-12b89720b/"
   },
 ]
 

@@ -10,7 +10,7 @@ export default function MyDetails() {
     >
       <p className="indent-6">
         <strong> Passion for Problem-Solving and Industry Experience:</strong>
-        I’m a tech enthusiast who thrives on problem-solving and continuous learning. My journey as a technical professional is driven by a desire to build impactful, innovative solutions across various domains<strong>Networking</strong>, <strong>Python</strong>, and{" "}
+         I'm a tech enthusiast who thrives on problem-solving and continuous learning. My journey as a technical professional is driven by a desire to build impactful, innovative solutions across various domains<strong>Networking</strong>, <strong>Python</strong>, and{" "}
         <strong>Embedded Systems</strong>, Networking-focused work, including advanced firewalls, Cisco wireless architectures, and CCNA projects on campus networking.
         <br />
         <br />

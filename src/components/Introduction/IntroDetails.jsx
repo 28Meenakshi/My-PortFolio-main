@@ -11,7 +11,7 @@ export default function IntroDetails() {
     classBorder+=border
     return(
         <div className={classBorder}>
-            <div className="grid  md:w-3/4 content-center px-10 ">
+            <div className="grid  md:w-3/4 content-center px-10 lg:py-10">
                 <motion.h1  whileInView={{x:0,opacity:1}} initial={{x:-100 , opacity:0}}
                 transition={{duration:0.5,delay:0.2}}
                 className="text-3xl tracking-wide md:text-4xl lg:text-5xl  font-bold">{Intro.Name}</motion.h1>
@@ -23,10 +23,10 @@ export default function IntroDetails() {
                 whileInView={{x:0,opacity:1}} initial={{x:-100 , opacity:0}}
                 transition={{duration:0.5,delay:0.8}} className="text-justify tracking-tighter w-full md:mt-10 float-left">{Intro.Description}</motion.p>
             </div>
-            <div className=" lg:w-1/4 my-10 w-3/4">
+            {/* <div className=" lg:w-1/4 my-10 w-3/4">
             <motion.img 
             whileInView={{y:0,opacity:1}} initial={{y:-100 , opacity:0}}
-            transition={{duration:0.8,delay:0.8}} src={Intro.Image} alt="muthupandi" className="rounded-lg shadow-md shadow-slate-700 w-full"/></div>
+            transition={{duration:0.8,delay:0.8}} src={Intro.Image} alt="muthupandi" className="rounded-lg shadow-md shadow-slate-700 w-full"/></div> */}
         </div>
     )
 };
