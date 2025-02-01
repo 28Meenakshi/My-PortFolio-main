@@ -16,7 +16,14 @@ const projects = [
       image:'images/scholarship.png',
       technologies: ["HTML", "CSS", "js","php","mysql"],
       description: "Developed a web-based Scholarship Management System to facilitate the application, review, and allocation of scholarships for students. The system provides a seamless platform for students, administrators, and reviewers to manage the scholarship process efficiently."
+    },
+    {
+      name: "Woment Safety Button",
+      image:'images/women.jpg',
+      technologies: ["Embedded C", "Arduino", "GSM module"],
+      description: "The Women's Safety Emergency Response System demonstrates the transformative power of technology in addressing real-world challenges and enhancing personal security. By emphasizing ease of use, reliability, and rapid communication, this project takes a significant step toward creating a safer and more empowered society. In emergencies, a single button press can initiate three calls: the first to the police, the second to parents, and the third to a friend."
     }
+
   ];
 
 export default projects;
