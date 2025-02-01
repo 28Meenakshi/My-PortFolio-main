@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.4.2",
     "autoprefixer": "^10.4.20",
     "dotenv": "^16.4.7",
     "firebase": "^11.0.2",

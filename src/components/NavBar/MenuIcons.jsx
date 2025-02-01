@@ -1,19 +1,18 @@
 import { useContext } from "react";
-import { Github, Instagram, LinkedIn, Moon, Sun } from "../icons/Icon";
 import ThemeContext from "../ColorTheme/themeContext";
 
-
+import {DarkMode, LightMode ,Instagram , GitHub ,LinkedIn } from '@mui/icons-material';
 const MenuIconsItems = [
   {
-    icon :<Github/> ,
+    icon :<GitHub className="text-[10px]"/> ,
     link : "https://github.com/28Meenakshi"
   },
   {
-    icon :<Instagram/> ,
+    icon :<Instagram className="text-[10px]"/> ,
     link : "https://www.instagram.com/accounts/onetap/?next=%2F"
   },
   {
-    icon :<LinkedIn/> ,
+    icon :<LinkedIn className="text-[10px]"/> ,
     link : "https://www.linkedin.com/in/meenakshi-k-12b89720b/"
   },
 ]
@@ -28,23 +27,21 @@ export default function MenuIcons() {
         <div id="icons" className="flex items-center bg-transparent">
         {theme ? (
           <button onClick={HandleClick } className={`${theme ? 'hover:text-blue-700' : 'hover:text-violet-800'}`}>
-            <Moon/>
+            <DarkMode className="text-[10px]" />
           </button>
         ) : (
           <button onClick={HandleClick} className={`${theme ? 'hover:text-blue-700' : 'hover:text-violet-800'}`}>
-            <Sun/>
+            <LightMode className="text-[10px]"/>
           </button>
         )}
-        <div className="">
+        <div className="flex items-center -gap-x-2">
           {
-          MenuIconsItems.map(({icon,link})=>(
-            <>
-            <a href={link}>
+          MenuIconsItems.map(({icon,link},id)=>(
+            <a href={link} key={id}>
           <button className={`${theme ? 'hover:text-blue-700' : 'hover:text-violet-800'}`}>
             {icon}
           </button>
         </a>
-            </>
           ))}</div>
         
         
